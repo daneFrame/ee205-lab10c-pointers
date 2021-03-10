@@ -1,0 +1,23 @@
+###############################################################################
+### University of Hawaii, College of Engineering
+### EE 205  - Object Oriented Programming
+### Lab 06b - Pointers
+###
+### @file .gitignore
+### @version 1.0
+###
+### Tells git which files to ignore
+###
+### @author @todo yourName <@todo yourMail@hawaii.edu>
+### @brief  Lab 06b - Pointers - EE 205 - Spr 2021
+### @date   @todo dd_mmm_yyyy
+###############################################################################
+
+# All object files
+*.o
+
+# The executable file
+pointers
+
+# A hidden file for MacOS filesystems
+.DS_Store
