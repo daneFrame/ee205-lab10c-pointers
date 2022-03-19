@@ -1,7 +1,6 @@
 ###############################################################################
-### University of Hawaii, College of Engineering
-### EE 205  - Object Oriented Programming
-### Lab 06b - Pointers
+###         University of Hawaii, College of Engineering
+### @brief  Lab 10c - Pointers - EE 205 - Spr 2022
 ###
 ### @file .gitignore
 ### @version 1.0
@@ -9,15 +8,18 @@
 ### Tells git which files to ignore
 ###
 ### @author @todo yourName <@todo yourMail@hawaii.edu>
-### @brief  Lab 06b - Pointers - EE 205 - Spr 2021
 ### @date   @todo dd_mmm_yyyy
 ###############################################################################
 
-# All object files
+
+# Ignore all object files
 *.o
 
-# The executable file
+# Ignore the executable file
 pointers
 
-# A hidden file for MacOS filesystems
+# Ignore a hidden file for MacOS filesystems
 .DS_Store
+
+# Ignore vi swap files
+.*.swp

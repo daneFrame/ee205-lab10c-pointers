@@ -1,17 +1,32 @@
 ///////////////////////////////////////////////////////////////////////////////
-/// University of Hawaii, College of Engineering
-/// EE 205  - Object Oriented Programming
-/// Lab 06b - Pointers
+///         University of Hawaii, College of Engineering
+/// @brief  Lab 10c - Pointers - EE 205 - Spr 2022
+///
+/// Explore pointers for fun and profit
+///
+/// Usage:  pointers
+///
+/// Result:
+///   Just a little story...
+///
+/// Example:
+///   $ pointers
+///
+/// Compilation:
+///   $ g++ -o pointers -Wall -Wextra pointers.cpp
+///   This program will only compile in C++ (with g++) not in C (with gcc)
 ///
 /// @file pointers.cpp
 /// @version 1.0
 ///
-/// Explores pointers
+/// @see https://c-for-dummies.com/caio/pointer-cheatsheet.php
+/// @see https://www.codecademy.com/learn/learn-c-plus-plus/modules/learn-cpp-references-and-pointers/cheatsheet
+/// @see https://en.wikipedia.org/wiki/Pointer_(computer_programming)
 ///
 /// @author @todo yourName <@todo yourMail@hawaii.edu>
-/// @brief  Lab 06b - Pointers - EE 205 - Spr 2021
 /// @date   @todo dd_mmm_yyyy
 ///////////////////////////////////////////////////////////////////////////////
+
 
 #include <iostream>
 
@@ -34,7 +49,8 @@ void firstStory() {
 //	char  myChar;
 	// Now you do the other 3 (and delete this comment line)
 	
-	// Using cout and sizeof(), print the size of the 4 basic datatypes 
+	// Using cout and sizeof(), print the size of the 4 basic datatypes:
+	//    char, short, int and long
 //	cout << "  Sizeof a char is "  << sizeof( myChar )  << " byte"  << endl;
 
 //	cout << endl;
@@ -92,6 +108,7 @@ void secondStory() {
 //
 // Initialize them all to NULL
 //static char*  spMyChar  = NULL ;
+
 
 // Let's work with dynamic memory
 //
@@ -195,8 +212,8 @@ void fifthStory() {
 void sixthStory() {
 	cout << "The sixth story" << endl;
 	
-	long a = 4;  // This will be called by value
-	long b = 4;  // This will be called by reference
+	// long a = 4;  // This will be called by value
+	// long b = 4;  // This will be called by reference
 
    // Write cout string that prints:
    //   The square of 4 is << 16
